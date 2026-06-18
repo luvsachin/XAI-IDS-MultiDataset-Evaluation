@@ -137,6 +137,57 @@ This repository provides a **compact reproducibility package** including:
 
 Raw datasets and intermediate large files are excluded due to size constraints.
 
+## Quick Start
+
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 2. Prepare datasets
+
+Download the datasets and place them in the expected directory structure:
+
+```
+02_Data/
+ ├── NSL-KDD/
+ ├── UNSW-NB15/
+ ├── CICIDS2017/
+```
+
+---
+
+### 3. Run the full pipeline
+
+Execute scripts sequentially:
+
+```bash
+python 03_Code/scripts/00_reproducibility_check.py
+python 03_Code/scripts/01_dataset_audit.py
+...
+python 03_Code/scripts/15_cicids2017_multi_holdout_audit.py
+```
+
+---
+
+### 4. Outputs
+
+Results will be generated in:
+
+```
+04_Results/
+```
+
+Key summary outputs are provided in:
+
+```
+results_summary/
+```
+
+
 ---
 
 ## Contact
