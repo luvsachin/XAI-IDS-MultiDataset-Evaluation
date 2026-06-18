@@ -1,0 +1,10 @@
+dataset_a,dataset_b,top_k,intersection_count,union_count,jaccard_similarity,common_features
+NSL-KDD,NSL-KDD,20,20,20,1.0,count | diff_srv_rate | dst_bytes | dst_host_count | dst_host_diff_srv_rate | dst_host_rerror_rate | dst_host_same_src_port_rate | dst_host_same_srv_rate | dst_host_serror_rate | dst_host_srv_count | dst_host_srv_serror_rate | hot | logged_in | protocol_type_icmp | same_srv_rate | service_domain_u | service_ecr_i | service_http | service_private | src_bytes
+NSL-KDD,UNSW-NB15,20,0,40,0.0,
+NSL-KDD,CICIDS2017,20,0,40,0.0,
+UNSW-NB15,NSL-KDD,20,0,40,0.0,
+UNSW-NB15,UNSW-NB15,20,20,20,1.0,ct_dst_ltm | ct_dst_sport_ltm | ct_dst_src_ltm | ct_src_ltm | ct_srv_dst | ct_srv_src | ct_state_ttl | dbytes | dload | dmean | proto_udp | proto_unas | rate | sbytes | service_dns | sinpkt | sloss | smean | sttl | synack
+UNSW-NB15,CICIDS2017,20,0,40,0.0,
+CICIDS2017,NSL-KDD,20,0,40,0.0,
+CICIDS2017,UNSW-NB15,20,0,40,0.0,
+CICIDS2017,CICIDS2017,20,20,20,1.0,Avg Fwd Segment Size | Bwd Packet Length Mean | Bwd Packet Length Min | Bwd Packet Length Std | Bwd Packets/s | Destination Port | Flow IAT Min | Fwd Header Length | Fwd IAT Min | Fwd Packet Length Max | Fwd Packet Length Mean | Init_Win_bytes_backward | Init_Win_bytes_forward | PSH Flag Count | Packet Length Mean | Source Port | Subflow Fwd Bytes | Total Length of Bwd Packets | Total Length of Fwd Packets | min_seg_size_forward

@@ -1,0 +1,4 @@
+dataset,model_a,model_b,test,n_seeds,model_a_mean_f1,model_b_mean_f1,mean_f1_difference_a_minus_b,statistic,p_value
+NSL-KDD,LightGBM,XGBoost,Wilcoxon signed-rank on seed-wise F1,20,0.7616954044872768,0.7760620073565587,-0.014366602869281936,0.0,1.9073486328125e-06
+UNSW-NB15,XGBoost,RandomForest,Wilcoxon signed-rank on seed-wise F1,20,0.8944457522873709,0.8936906945994606,0.0007550576879102489,8.0,4.76837158203125e-05
+CICIDS2017,LightGBM,XGBoost,Wilcoxon signed-rank on seed-wise F1,20,0.9995124508207512,0.9994037272420734,0.00010872357867793835,0.0,0.00013100797196900614

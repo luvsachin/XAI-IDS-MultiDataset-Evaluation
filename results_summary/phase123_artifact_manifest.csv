@@ -1,0 +1,11 @@
+artifact,exists,path,rows
+statistical_significance_summary.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\statistical_significance_summary.csv,3
+cicids2017_credibility_audit_results.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\cicids2017_credibility_audit_results.csv,4
+shap_seed_stability_summary_extended.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\shap_seed_stability_summary_extended.csv,3
+shap_subsample_robustness_summary.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\shap_subsample_robustness_summary.csv,3
+local_shap_case_index.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\local_shap_case_index.csv,3
+nsl_kdd_class_level_error_analysis.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\nsl_kdd_class_level_error_analysis.csv,35
+mlp_baseline_results.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\mlp_baseline_results.csv,6
+semantic_grouping_robustness.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\semantic_grouping_robustness.csv,135
+system_hardware_report.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\system_hardware_report.csv,5
+python_package_versions.csv,True,D:\Research\Paper_A_XAI_IDS\04_Results\metrics\python_package_versions.csv,8
