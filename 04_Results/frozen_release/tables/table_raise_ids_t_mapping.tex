@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\centering
+\caption{Frozen mapping from corrected statistical evidence to the RAISE-IDS statistical-support coefficient $T$. The practical-effect threshold is fixed at $\delta_{\min}=0.0005$ absolute F1. Candidates not directly involved in the designated leading comparison receive neutral support.}
+\label{tab:raise_ids_t_mapping}
+\small
+\begin{tabularx}{\textwidth}{Xcc}
+\toprule
+Evidence condition & Favored model & Comparator \\
+\midrule
+Favored by both Holm-corrected Wilcoxon and McNemar tests, with $|\Delta F1|\geq 0.0005$ & 1.00 & 0.15 \\
+Favored by one corrected test, with $|\Delta F1|\geq 0.0005$ & 0.75 & 0.30 \\
+No corrected statistical support or statistically indistinguishable & 0.50 & 0.50 \\
+Statistically detectable but $|\Delta F1|<0.0005$ & 0.50 & 0.50 \\
+Candidate not directly tested in the designated leading comparison & 0.50 & 0.50 \\
+\bottomrule
+\end{tabularx}
+\end{table}

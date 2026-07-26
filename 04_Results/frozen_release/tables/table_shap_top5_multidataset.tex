@@ -1,0 +1,27 @@
+\begin{table}[!htbp]
+\centering
+\caption{Top five SHAP-ranked features for the final Stage-2 RAISE-IDS winner on each dataset. These values are a compact subset of Table~\ref{tab:raise_ids_final_winner_shap_top_features}.}
+\label{tab:shap_top5}
+\small
+\begin{tabularx}{\textwidth}{llcXr}
+\toprule
+Dataset & Final winner & Rank & Feature & Mean $|\mathrm{SHAP}|$ \\
+\midrule
+NSL-KDD & XGBoost & 1 & \texttt{src\_bytes} & 2.7568 \\
+NSL-KDD & XGBoost & 2 & \texttt{dst\_host\_srv\_count} & 1.1014 \\
+NSL-KDD & XGBoost & 3 & \texttt{dst\_bytes} & 0.9918 \\
+NSL-KDD & XGBoost & 4 & \texttt{count} & 0.8643 \\
+NSL-KDD & XGBoost & 5 & \texttt{dst\_host\_same\_src\_port\_rate} & 0.5333 \\
+UNSW-NB15 & XGBoost & 1 & \texttt{sttl} & 2.8264 \\
+UNSW-NB15 & XGBoost & 2 & \texttt{ct\_dst\_sport\_ltm} & 0.6840 \\
+UNSW-NB15 & XGBoost & 3 & \texttt{ct\_state\_ttl} & 0.5012 \\
+UNSW-NB15 & XGBoost & 4 & \texttt{sbytes} & 0.4918 \\
+UNSW-NB15 & XGBoost & 5 & \texttt{smean} & 0.4290 \\
+CICIDS2017 & LightGBM & 1 & Destination Port & 1.8230 \\
+CICIDS2017 & LightGBM & 2 & \texttt{Init\_Win\_bytes\_forward} & 1.5713 \\
+CICIDS2017 & LightGBM & 3 & Fwd Packet Length Mean & 1.4051 \\
+CICIDS2017 & LightGBM & 4 & Total Length of Fwd Packets & 0.8365 \\
+CICIDS2017 & LightGBM & 5 & Source Port & 0.7304 \\
+\bottomrule
+\end{tabularx}
+\end{table}

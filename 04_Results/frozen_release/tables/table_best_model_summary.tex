@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\centering
+\caption{Validation winners evaluated on the frozen authoritative independent-test result set. All values are drawn from the single frozen all-model result generation documented in Table~\ref{tab:result_generation_provenance}.}
+\label{tab:best_model_summary}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Validation winner & Validation F1 & Test F1 & Test ROC-AUC & Test PR-AUC \\
+\midrule
+NSL-KDD & LightGBM & 0.9994 & 0.7680 & 0.9589 & 0.9642 \\
+UNSW-NB15 & Random Forest & 0.9706 & 0.8942 & 0.9807 & 0.9846 \\
+CICIDS2017 & LightGBM & 0.9995 & 0.9995 & 1.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}

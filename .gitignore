@@ -1,0 +1,54 @@
+# Raw and processed datasets
+02_Data/raw/
+02_Data/processed/
+*.csv.gz
+*.parquet
+*.pkl
+*.joblib
+
+# Large model and prediction artifacts
+04_Results/predictions/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.synctex.gz
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private manuscript/submission material
+submission_packages/
+backups/
+Drafts/
+Final/
+*Cover_Letter*
+*Decision*
+*Suggested_Reviewers*
+*Excluded_Reviewers*
+*AUTHOR_FACTUAL*
+*INTERNAL_AI*
+*SUBMISSION_PACKAGE*

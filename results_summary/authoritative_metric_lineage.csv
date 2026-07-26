@@ -1,0 +1,19 @@
+dataset,model,validation_f1,test_f1,test_pr_auc,test_roc_auc,fpr,fnr,Q,O,G,core,authoritative_source
+CICIDS2017,LightGBM,0.9995,0.9995,1.0000,1.0000,0.0000,0.0006,0.999750,0.999580,1.000000,0.999740,Table 4 validation + Table 31 independent test
+CICIDS2017,XGBoost,0.9995,0.9994,0.9999,1.0000,0.0000,0.0007,0.999650,0.999510,0.999900,0.999651,Table 4 validation + Table 31 independent test
+CICIDS2017,Random Forest,0.9989,0.9991,0.9998,0.9999,0.0000,0.0014,0.999450,0.999020,1.000000,0.999409,Table 4 validation + Table 31 independent test
+CICIDS2017,Extra Trees,0.9987,0.9988,0.9997,0.9999,0.0001,0.0015,0.999250,0.998920,1.000000,0.999284,Table 4 validation + Table 31 independent test
+CICIDS2017,MLP,0.9822,0.9835,0.9984,0.9998,0.0007,0.0263,0.990922,0.981380,1.000000,0.989375,Table 4 validation + Table 31 independent test
+CICIDS2017,Logistic Regression,0.7245,0.7256,0.9495,0.9927,0.0862,0.0117,0.830034,0.965950,1.000000,0.908505,Table 4 validation + Table 31 independent test
+NSL-KDD,LightGBM,0.9994,0.7680,0.9642,0.9589,0.0276,0.3637,0.860526,0.737130,0.768600,0.796938,Table 4 validation + Table 31 independent test
+NSL-KDD,XGBoost,0.9991,0.7844,0.9708,0.9671,0.0277,0.3412,0.872637,0.752850,0.785300,0.811391,Table 4 validation + Table 31 independent test
+NSL-KDD,Random Forest,0.9989,0.7461,0.9645,0.9612,0.0266,0.3930,0.848300,0.716920,0.747200,0.779739,Table 4 validation + Table 31 independent test
+NSL-KDD,Extra Trees,0.9988,0.7791,0.9595,0.9560,0.0281,0.3482,0.864608,0.747830,0.780300,0.805104,Table 4 validation + Table 31 independent test
+NSL-KDD,MLP,0.9683,0.7473,0.9016,0.8603,0.0334,0.3884,0.820832,0.718100,0.779000,0.775152,Table 4 validation + Table 31 independent test
+NSL-KDD,Logistic Regression,0.8686,0.6670,0.8980,0.8692,0.0960,0.4633,0.773929,0.646890,0.798400,0.731392,Table 4 validation + Table 31 independent test
+UNSW-NB15,Random Forest,0.9706,0.8942,0.9846,0.9807,0.2711,0.0125,0.938312,0.909920,0.923600,0.925346,Table 4 validation + Table 31 independent test
+UNSW-NB15,Extra Trees,0.9697,0.8894,0.9715,0.9730,0.2791,0.0167,0.929544,0.904580,0.919700,0.918771,Table 4 validation + Table 31 independent test
+UNSW-NB15,LightGBM,0.9692,0.8971,0.9892,0.9853,0.2580,0.0152,0.942025,0.911960,0.927900,0.928581,Table 4 validation + Table 31 independent test
+UNSW-NB15,XGBoost,0.9687,0.8984,0.9888,0.9849,0.2573,0.0133,0.942517,0.913500,0.929700,0.929708,Table 4 validation + Table 31 independent test
+UNSW-NB15,MLP,0.9628,0.8813,0.9808,0.9740,0.2912,0.0250,0.929720,0.895140,0.918500,0.915242,Table 4 validation + Table 31 independent test
+UNSW-NB15,Logistic Regression,0.9504,0.8622,0.9671,0.9560,0.2787,0.0698,0.913145,0.867530,0.911800,0.896649,Table 4 validation + Table 31 independent test

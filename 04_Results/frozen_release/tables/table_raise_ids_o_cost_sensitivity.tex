@@ -1,0 +1,27 @@
+\begin{table}[!htbp]
+\centering
+\caption{Operational-cost sensitivity of frozen RAISE-IDS Stage-2 winners under alternative false-negative weights $\lambda$ in $O_\lambda=1-(\lambda FNR+(1-\lambda)FPR)$.}
+\label{tab:raise_ids_o_cost_sensitivity}
+\small
+\begin{tabular}{lrlr}
+\toprule
+Dataset & $\lambda$ & Stage-2 winner & Margin \\
+\midrule
+CICIDS2017 & 0.50 & LightGBM & 0.0309 \\
+CICIDS2017 & 0.60 & LightGBM & 0.0309 \\
+CICIDS2017 & 0.70 & LightGBM & 0.0309 \\
+CICIDS2017 & 0.80 & LightGBM & 0.0309 \\
+CICIDS2017 & 0.90 & LightGBM & 0.0309 \\
+NSL-KDD & 0.50 & XGBoost & 0.0864 \\
+NSL-KDD & 0.60 & XGBoost & 0.0858 \\
+NSL-KDD & 0.70 & XGBoost & 0.0853 \\
+NSL-KDD & 0.80 & XGBoost & 0.0847 \\
+NSL-KDD & 0.90 & XGBoost & 0.0841 \\
+UNSW-NB15 & 0.50 & XGBoost & 0.0438 \\
+UNSW-NB15 & 0.60 & XGBoost & 0.0440 \\
+UNSW-NB15 & 0.70 & XGBoost & 0.0443 \\
+UNSW-NB15 & 0.80 & XGBoost & 0.0446 \\
+UNSW-NB15 & 0.90 & XGBoost & 0.0448 \\
+\bottomrule
+\end{tabular}
+\end{table}
