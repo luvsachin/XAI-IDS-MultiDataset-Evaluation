@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{Frozen Stage-2 RAISE-IDS scores for the top-three Stage-1 candidates. Core is computed from the authoritative test matrix; $E$ is the shortlisted-model seed-wise SHAP stability; $T$ follows Table~\ref{tab:raise_ids_t_mapping}.}
+\label{tab:raise_ids_stage2_scores}
+\small
+\begin{tabular}{llrrrrr}
+\toprule
+Dataset & Model & Core & $E$ & $T$ & Stage 2 & Rank \\
+\midrule
+CICIDS2017 & LightGBM & 0.9997 & 1.0000 & 0.50 & 0.9011 & 1 \\
+CICIDS2017 & XGBoost & 0.9997 & 0.8701 & 0.50 & 0.8703 & 2 \\
+CICIDS2017 & Random Forest & 0.9994 & 0.8449 & 0.50 & 0.8638 & 3 \\
+NSL-KDD & XGBoost & 0.8114 & 0.9247 & 1.00 & 0.8650 & 1 \\
+NSL-KDD & Extra Trees & 0.8051 & 0.9429 & 0.50 & 0.7798 & 2 \\
+NSL-KDD & LightGBM & 0.7969 & 1.0000 & 0.15 & 0.6566 & 3 \\
+UNSW-NB15 & XGBoost & 0.9297 & 0.8039 & 1.00 & 0.9064 & 1 \\
+UNSW-NB15 & LightGBM & 0.9286 & 1.0000 & 0.50 & 0.8621 & 2 \\
+UNSW-NB15 & Random Forest & 0.9253 & 0.8442 & 0.15 & 0.6883 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}

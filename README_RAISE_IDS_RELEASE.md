@@ -43,19 +43,3 @@ The validator must return `"status": "PASS"`.
 The shortlisted-model explanation-stability values are measured project inputs. This compact release verifies all derived RAISE-IDS calculations, ranks, sensitivity outputs, and hashes, but it does not contain the raw datasets or large seed-wise SHAP arrays required for full model retraining.
 
 See `results_summary/PROVENANCE_AND_FREEZE.md` and `docs/RELEASE_NOTES.md`. This file is intentionally named `README_RAISE_IDS_RELEASE.md` so the existing repository README is preserved when the overlay is applied.
-
-## Workflow generations
-
-- Scripts `00`–`15` implement the original multi-dataset benchmarking,
-  statistical testing, SHAP analysis, and credibility audits.
-- Scripts `16`–`31` implement the RAISE-IDS scoring, robustness,
-  final-winner explanation, calibration, neural-baseline, and file-wise
-  stress-test analyses.
-- Scripts `32`–`47` were manuscript-integration and LaTeX-repair utilities
-  and are intentionally excluded from this scientific release.
-- Scripts `50`–`51` freeze and validate the authoritative submission
-  evidence lineage.
-
-The final scientific values are those in
-`results_summary/authoritative_metric_lineage.csv` and the associated
-frozen release files.

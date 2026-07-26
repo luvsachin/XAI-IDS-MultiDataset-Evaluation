@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\caption{Frozen evidence lineage used in the submission release. Only the designated authoritative generation contributes to each RAISE-IDS component; earlier diagnostic generations are retained in the supplementary material for transparency.}
+\label{tab:result_generation_provenance}
+\scriptsize
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}X}
+\toprule
+Evidence block & Authoritative role & Treatment of other generations \\
+\midrule
+All-model validation and test matrix & Supplies validation rank, $Q$, $O$, $G$, Core, and final predictive summaries for every model. & Earlier single-model promotion outputs are not used in RAISE-IDS scoring and are retained only as historical diagnostics. \\
+Shortlisted-model SHAP seed audit & Supplies $E$ for the top-three Core candidates under the same 20-seed, top-20, fixed-sample protocol. & Validation-reference SHAP runs use a different diagnostic generation and do not contribute to Stage~2. \\
+Paired statistical comparison & Supplies $T$ for the designated validation-winner versus strongest reliability-stage competitor; untested shortlist candidates receive neutral support. & A corrected practical-effect rule with $\delta_{\min}=0.0005$ is applied consistently to all derived Stage-2 outputs. \\
+CICIDS2017 credibility and file-holdout audits & Provides external split-sensitivity evidence outside the RAISE-IDS score. & Each audit fits preprocessing on its own training partition and retrains LightGBM independently; main-split fitted objects are not reused. \\
+\bottomrule
+\end{tabularx}
+\end{table}

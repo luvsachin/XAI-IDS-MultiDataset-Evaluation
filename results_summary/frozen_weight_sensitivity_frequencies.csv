@@ -1,0 +1,10 @@
+dataset,model,top_rank_frequency
+NSL-KDD,XGBoost,1.0000
+NSL-KDD,Extra Trees,0.0000
+NSL-KDD,LightGBM,0.0000
+UNSW-NB15,XGBoost,0.8646
+UNSW-NB15,LightGBM,0.1354
+UNSW-NB15,Random Forest,0.0000
+CICIDS2017,LightGBM,1.0000
+CICIDS2017,XGBoost,0.0000
+CICIDS2017,Random Forest,0.0000

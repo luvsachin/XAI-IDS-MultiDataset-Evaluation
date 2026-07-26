@@ -1,0 +1,72 @@
+{
+  "release": "v1.0.0-raise-ids-candidate",
+  "delta_min_f1": 0.0005,
+  "weight_sensitivity": {
+    "draws": 5000,
+    "seed": 42,
+    "raw_ranges": {
+      "Core": [
+        0.45,
+        0.75
+      ],
+      "E": [
+        0.15,
+        0.35
+      ],
+      "T": [
+        0.05,
+        0.25
+      ]
+    },
+    "normalization": "divide each raw vector by its sum"
+  },
+  "validation_winners": {
+    "CICIDS2017": "LightGBM",
+    "NSL-KDD": "LightGBM",
+    "UNSW-NB15": "Random Forest"
+  },
+  "test_winners": {
+    "CICIDS2017": "LightGBM",
+    "NSL-KDD": "XGBoost",
+    "UNSW-NB15": "XGBoost"
+  },
+  "shortlist": {
+    "CICIDS2017": [
+      "LightGBM",
+      "XGBoost",
+      "Random Forest"
+    ],
+    "NSL-KDD": [
+      "XGBoost",
+      "Extra Trees",
+      "LightGBM"
+    ],
+    "UNSW-NB15": [
+      "XGBoost",
+      "LightGBM",
+      "Random Forest"
+    ]
+  },
+  "stage2_winners": {
+    "CICIDS2017": "LightGBM",
+    "NSL-KDD": "XGBoost",
+    "UNSW-NB15": "XGBoost"
+  },
+  "weight_frequencies": {
+    "NSL-KDD": {
+      "XGBoost": 1.0,
+      "Extra Trees": 0.0,
+      "LightGBM": 0.0
+    },
+    "UNSW-NB15": {
+      "XGBoost": 0.8646,
+      "LightGBM": 0.1354,
+      "Random Forest": 0.0
+    },
+    "CICIDS2017": {
+      "LightGBM": 1.0,
+      "XGBoost": 0.0,
+      "Random Forest": 0.0
+    }
+  }
+}

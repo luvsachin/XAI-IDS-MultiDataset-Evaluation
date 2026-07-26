@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Authoritative metric lineage contains 18 model rows",
+    "Q, O, G, and Core reproduce from the frozen metric matrix",
+    "Validation and held-out winners match the frozen UNSW/NSL/CIC lineage",
+    "Stage-2 scores and ranks reproduce from frozen Core, E, and T",
+    "Release metadata agrees with score tables",
+    "All generated-file SHA-256 values match the manifest"
+  ],
+  "errors": []
+}

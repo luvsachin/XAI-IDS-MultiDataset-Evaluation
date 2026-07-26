@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its frozen results, please cite this release and the associated manuscript."
+title: "RAISE-IDS: Frozen Reliability Release"
+version: "1.0.0"
+date-released: "2026-07-26"
+type: software
+authors:
+  - family-names: "Agrawal"
+    given-names: "Sachin"
+  - family-names: "Arya"
+    given-names: "Pranav"
+  - family-names: "Goel"
+    given-names: "Akash"
+  - family-names: "Sharma"
+    given-names: "Deepak"
+  - family-names: "Gaur"
+    given-names: "Sreesh"
+repository-code: "https://github.com/luvsachin/XAI-IDS-MultiDataset-Evaluation"
+license: "MIT"
+keywords:
+  - intrusion detection
+  - explainable AI
+  - SHAP
+  - dataset shift
+  - model selection
+  - reliability
